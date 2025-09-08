@@ -1,5 +1,7 @@
 #!/bin/sh
 
+e#!/bin/sh
+
 echo "Enter your first number"
 read first
 echo "Enter your second number"
@@ -13,10 +15,11 @@ echo "The sum is $sum"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
-echo "Enter width:"
+echo "Enter the image width:"
 read width
-echo "Enter height:"
+echo "Enter the image height:"
 read height
 
 pixels=$((width * height))
-echo "The total number of pixels is $pixels"
+echo "Total pixels calculated: $pixels"
+
